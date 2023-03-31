@@ -1,0 +1,150 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/*designing the navigation bar*/
+/* nav{
+    height: 80px;
+    width: 100%;
+    background-color:white;
+}
+nav ul{
+    float: right;
+    margin-right: 55px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: #29ab87;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 7px 13px;
+}
+/*styling the logo*/
+/* label.logo{
+    color: #29ab87;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.checkbutton{
+    font-size: 30px;
+    color: #29ab87;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.mycheckbox{
+    display: none;
+}
+/*hover design*/
+/* a:hover,a.active
+{
+    color: black;
+} */
+/*responsiveness*/
+/* @media screen and (max-width:952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    } */
+
+/* @media screen and (max-width:858px){
+    .checkbuttn{
+        display: block;
+    } */
+    /* ul{ */
+        /* position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px; */
+        /* line-height: 30px;
+    } */ 
+    /* nav ul li a{
+        font-size: 20px;
+        color:#29ab87 ;
+    }
+    a:hover,a.active{
+        color: black;
+    }
+    .mycheckbox:checked ~ul{
+        left: 0;
+    } */
+ */
+
+/*service section*/
+
+/*header section*/
+
+.header{
+   margin: auto;
+ }
+.heading {
+    align-items: center;
+    text-align: center;
+    text-shadow:0 5px 10px rgba(0,0,0,.2) ;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+/*end of header*/
+
+/*container section of service section*/
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap:15px;
+    position: relative;
+    top: 1.5srem;
+    height: 50vh;
+}
+.box-container .box{
+   box-shadow: 0 5px 10px rgba(0,0,0,.2);
+   border-radius: 9px;
+   background: white;
+   text-align: center;
+   padding: 30px 20px;
+}
+.box-container .box a{
+    text-decoration: none;
+}
+.box-container .box h3{
+   color: black;
+   font-size: 22px;
+   padding: 10px 0;
+   text-transform: uppercase;
+ }
+ .box-container .box p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  .box-container .box .btn{
+   display: inline-block;
+   background-color: #29ab87;
+   color: white;
+   margin-top: 10px;
+   font-size: 17px;
+   border-radius: 5px;
+   padding: 8px 25px;
+  }
+  
+/*booking style starts*/
