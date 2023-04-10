@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;       
+}
+.sliders{
+    width: 100%;
+    height:100vh;
+    position: absolute;
+    top: 0  ;
+}
+#slidimg{
+    width: 100%;
+    height: 100%;
+    animation: zoom 4s linear infinite;
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(1.3);
+    }
+    15%{
+        transform: scale(1);
+    }
+    85%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    position: absolute;
+    top: 0;
+}
+.navbar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 35px auto;
+    margin-left: 5%;
+}
+.logo{
+    flex-basis: 15%;
+}
+.logo img{
+    width: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menu-icon{
+    flex: 1;
+    align-items: center;
+    text-align: right;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background: transparent;
+    border: 2px solid  rgb(98, 171, 98);
+    border-radius: 10px;
+    background-color:  rgb(98, 171, 98);
+}
+
+.menu-icon a{
+    width: 20px;
+    margin-left: 30px;
+    cursor: pointer ;
+}
+.content{
+    width: 60%;
+    margin: 160px auto 0;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 60px;
+}
+.content h3{
+    width: 80%;
+    margin: 20px auto 100px;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(98, 171, 98);
+    background: rgb(98, 171, 98);
+    color: white;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+#main{
+   background-color: black;
+
+}
+
+.first{
+    display: flex;
+    gap: 3rem;
+    border-radius: 15px;
+    width: 80%;
+   margin-left: 10%;
+}
+.second{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+}
+.pic{
+    border: 1px solid  rgb(98, 171, 98);
+    padding: 2rem;
+    border-radius: 15px;
+   
+}
+
+.pic img{
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid  rgb(98, 171, 98);
+}
+.contents{
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+}
+#log{
+    background-color: black;
+    opacity: 0.5px;
+    color: white;
+}
+.sign-page{
+    width: 50%;
+    border: 1px solid rgb(98, 171, 98);
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+}
+.here{
+    width: 160px;
+    background-color: white;
+    color: rgb(98, 171, 98);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left:20% ;
+    border-radius: 5px;
+
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid rgb(98, 171, 98);
+  }
+  .fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 15px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.doc{
+    color: rgb(98, 171, 98);;
+}  
