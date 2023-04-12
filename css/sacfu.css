@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*service section*/
+
+/*header section*/
+
+.header{
+   margin: auto;
+ }
+.heading {
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+/*end of header*/
+
+/*start container section of service section*/
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap:2rem;
+    margin: auto;
+}
+.box-container .box{
+   box-shadow: 0 5px 10px rgba(0,0,0,.2);
+   border-radius: 9px;
+   background: white;
+   text-align: center;
+   padding: 30px 20px;
+}
+.box-container .box a{
+    text-decoration: none;
+}
+.box-container .box h3{
+   color: black;
+   font-size: 22px;
+   padding: 10px 0;
+   text-transform: uppercase;
+ }
+ .box-container .box p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  .box-container .box .btn{
+   display: inline-block;
+   background-color: #29ab87;
+   color: white;
+   margin-top: 10px;
+   font-size: 17px;
+   border-radius: 5px;
+   padding: 8px 8px;
+  }
+  .box-container .box .btn:hover{
+    color: #29ab87;
+    background-color: white;
+    border:1px solid #29ab87;
+  }
+
+  /*end of service section*/
+  
+/*booking style starts*/
+
+/*start of title*/
+section .book{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin-top: 3rem;
+}
+.title h2{
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+/*end of title*/
+
+.book .book-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap:2rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+.book .book-container form {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+   border-radius: 9px;
+   background: white;
+   text-align: center;
+   padding: 30px 20px;
+   border: 1px solid #29ab87;
+}
+.book .book-container  h3{
+   text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--black);
+    font-size: 2rem;
+}
+
+ .book .book-container  .box{
+    flex-direction: column;
+    width: 80%;
+    padding:1.5%;
+    border: 1px solid #29ab87;
+    margin:1rem ;
+    margin-left:1rem;
+    text-transform: none;
+ }
+.btn2{
+   display: inline-block;
+   background-color: #29ab87;
+   color: white;
+   margin-top: 10px;
+   font-size: 17px;
+   border-radius: 5px;
+   padding: 8px 8px;
+   border: none;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color:white;
+    color:#29ab87;
+    border:1px solid #29ab87;
+}
+/*image */
+.book .book-container .box2{
+    margin-right: 12rem;
+    width: 100%;
+}
+.box2  img{
+    align-items: center;
+ }
