@@ -72,9 +72,9 @@ a{
 
 a:hover{
     background: transparent;
-    border: 2px solid  rgb(98, 171, 98);
+    border: 2px solid  #29ab87;
     border-radius: 10px;
-    background-color:  rgb(98, 171, 98);
+    background-color:  #29ab87;
 }
 
 .menu-icon a{
@@ -104,8 +104,8 @@ button{
     margin: 0 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid rgb(98, 171, 98);
-    background: rgb(98, 171, 98);
+    border: 2px solid #29ab87;
+    background: #29ab87;
     color: white;
     cursor: pointer;
     transition: background 0.5s;
@@ -134,7 +134,7 @@ button:hover{
     margin-left: 10%;
 }
 .pic{
-    border: 1px solid  rgb(98, 171, 98);
+    border: 1px solid  #29ab87;
     padding: 2rem;
     border-radius: 15px;
    
@@ -144,7 +144,7 @@ button:hover{
     width: 50%;
     cursor: pointer;
     border-radius: 5px;
-    border: 1px solid  rgb(98, 171, 98);
+    border: 1px solid  #29ab87;
 }
 .contents{
     width: 100%;
@@ -159,7 +159,7 @@ button:hover{
 }
 .sign-page{
     width: 50%;
-    border: 1px solid rgb(98, 171, 98);
+    border: 1px solid #29ab87;
     border-radius: 15px;
     justify-content: center;
     text-align: center;
@@ -169,7 +169,7 @@ button:hover{
 .here{
     width: 160px;
     background-color: white;
-    color: rgb(98, 171, 98);
+    color: #29ab87;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -184,7 +184,7 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 5px solid rgb(98, 171, 98);
+    border-bottom: 5px solid #29ab87;
   }
   input[type=password]{
     width: 80%;
@@ -192,7 +192,7 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 5px solid rgb(98, 171, 98);
+    border-bottom: 5px solid #29ab87;
   }
   .fa {
     padding: 10px;
@@ -229,5 +229,13 @@ input[type=text] {
     color: white;
   }
 .doc{
-    color: rgb(98, 171, 98);;
+    color: #29ab87;;
 }  
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+li{
+    padding: 1rem;
+}
