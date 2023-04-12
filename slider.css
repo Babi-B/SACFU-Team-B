@@ -173,12 +173,21 @@ button:hover{
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left:20% ;
+    margin-left:25% ;
     border-radius: 5px;
 
 }
+
 input[type=text] {
-    width: 100%;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid rgb(98, 171, 98);
+  }
+  input[type=password]{
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
