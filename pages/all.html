@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../pages/contact.html">
+    <link rel="stylesheet" href="../pages/doctors.html">
+    <link rel="stylesheet" href="../pages/slider.html">
+    <link rel="stylesheet" href="../pages/login.html">
+    <link rel="stylesheet" href="../styles/slider.css">
+    <link rel="stylesheet"  href="../About/about.css">
+    <link rel="stylesheet" href="../about 2/style.css">
+    <link rel="stylesheet" href="../About/images/pic 3.jpg">
+    <link rel="stylesheet" href="../css/sacfu.css">
+    
+    
+</head>
+
+<body onload="slider()">
+    <div class="banner">
+        <div class="sliders">
+            <img src="./images/group-black-doctors-nurses-isolated-white-30058871.jpg" alt="" id="slidimg">
+        </div>
+        <div class="overlay">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./images/AQJF5164.JPG" alt="">
+                </div>
+                <div class="menu-icon">
+                    <a href="../pages/slider.html">Home</a>
+                    <a href="../html/services.html">Services</a>
+                    <a href="../About/about.html">About</a>
+                    <a href="../pages/doctors.html">Doctors</a>
+                    <a href="../html/book-now.html">Book-Now</a>
+                    <a href="../about 2/index.html">Review</a>
+                    <a href="../pages/login.html">Login</a>
+                </div>
+            </div>
+            <div class="content">
+                <h1 style="color: white;"> WELCOME TO </h1>
+                <h1 style="color: #29ab87;"> SACFU </h1>
+                <h3>Here we offer you with free consultation at the comfort of your home we provide you other home care
+                    services such as; <br> <br> <br>
+                    <ul>
+                        <li>General Consultation</li>
+                        <li>Diagnostic Testing</li>
+                        <li>Follow-Up Nursing Care</li>
+                        <li>Palliative & Elderly Home Care</li>
+                    </ul>
+                </h3>
+                <h2 style="color: white;">STAY SAFE, STAY HEALTHY</h2><br> <br>
+                <button type="button">BOOK-NOW</button>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var slidimg = document.getElementById("slidimg");
+
+        var images = new Array(
+            "images/group-black-doctors-nurses-isolated-white-30058871.jpg",
+            "images/6.jpg",
+            "images/3.jpg",
+            "images/9.jpg"
+        );
+
+        var len = images.length;
+        var i = 0;
+
+        function slider() {
+            if (i > len - 1) {
+                i = 0;
+            }
+            slidimg.src = images[i];
+            i++;
+            setTimeout('slider()', 4000)
+        }
+    </script>
+
+    <!-- end of home page -->
+
+
+    <!-- start of about page -->
+    <div class="heading"><br> <br> <br>
+        <h1 id="title"><span style="color: #29ab87;">About</span> Us</h1><br> <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+
+    </div>
+    <section class="about-us">
+        <img src="../About/images/pic 3.jpg">
+        <div class="content">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit fugiat odio ipsum voluptatum nostrum,
+                magnam fugit enim aut atque maxime
+                nobis pariatur et nam harum tempora assumenda. Dolores, quidem?</p>
+            <button class="read-more-btn">Read More</button>
+
+        </div> 
+    </section><br> <br> <br> <br><br>
+    <!-- end of about page -->  <br> <br>  <br> <br> <br> <br>
+
+  <!---service section-->
+  <section id="service"> <br> <br> <br> <br>
+    <div class="header">
+        <h2 class="heading">our<span style="color:#29ab87">services</span></h2>
+    </div> <br> <br> <br> <br> <br>
+        
+    <div>   
+        <div class="box-container">
+            <div class="box">
+                <i class="fa fa-user-md" style="font-size:48px;color:#29ab87"></i>
+                <h3>General consultation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum, veniam totam repellat fugit molestiae maxime laborum aut facere, voluptates harum earum iusto tempore debitis, corporis quod dolore sunt eius.
+                Iste repellat consectetur sunt. Veniam corrupti itaque officiis, unde, eveniet quidem nemo sequi quasi ducimus, fugiat natus dolorem vero expedita mollitia maxime. Nesciunt qui tenetur inventore omnis cumque, iste sapiente?</p>
+                    <a href="#" class="btn">Learn more</a>
+            </div>
+
+                <div class="box">
+                    <i class="fa fa-ambulance" style="font-size:48px;color:#29ab87"></i>
+                        <h3>Diagnostic testing at Home </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum, veniam totam repellat fugit molestiae maxime laborum aut facere, voluptates harum earum iusto tempore debitis, corporis quod dolore sunt eius.
+                        Iste repellat consectetur sunt. Veniam corrupti itaque officiis, unde, eveniet quidem nemo sequi quasi ducimus, fugiat natus dolorem vero expedita mollitia maxime. Nesciunt qui tenetur inventore omnis cumque, iste sapiente?</p>
+                            <a href="#" class="btn">Learn more</a>
+                </div>
+
+            <div class="box">
+                <i class="fa fa-h-square" style="font-size:48px;color:#29ab87"></i>
+                <h3>follow-up nursing care at home</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum, veniam totam repellat fugit molestiae maxime laborum aut facere, voluptates harum earum iusto tempore debitis, corporis quod dolore sunt eius.
+                Iste repellat consectetur sunt. Veniam corrupti itaque officiis, unde, eveniet quidem nemo sequi quasi ducimus, fugiat natus dolorem vero expedita mollitia maxime. Nesciunt qui tenetur inventore omnis cumque, iste sapiente?</p>
+                    <a href="#" class="btn">Learn more</a>
+            </div>       
+            <div class="box">
+                <i class="fa fa-h-square" style="font-size:48px;color:#29ab87"></i>
+                <h3>palliative & elderly home care</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum, veniam totam repellat fugit molestiae maxime laborum aut facere, voluptates harum earum iusto tempore debitis, corporis quod dolore sunt eius.
+                Iste repellat consectetur sunt. Veniam corrupti itaque officiis, unde, eveniet quidem nemo sequi quasi ducimus, fugiat natus dolorem vero expedita mollitia maxime. Nesciunt qui tenetur inventore omnis cumque, iste sapiente?</p>
+                    <a href="#" class="btn">Learn more</a>
+            </div>       
+    </div> <br> <br> <br> <br>
+</section>
+ <!--service section ends-->  
+
+
+
+    <!-- start of doctors page -->
+    <div class="banners" id="main">
+        <div class="contents"> <br> <br> <br>
+            <h1 style="color: black;">OUR</h1>
+            <h1 style="color:  #29ab87;">DOCTORS</h1> <br> <br>
+
+            <div class="first">
+                <div class="pic">
+                    <img src="./images/3.jpg" alt=""> <br> <br>
+                    <h2>John Deo</h2>
+                    <p class="doc">Expert Doctor in Palliative Care </p> <br>
+                    <div class="icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="./images/3.jpg" alt=""> <br> <br>
+                    <h2>John Deo</h2>
+                    <p class="doc">Expert Doctor in Palliative Care </p> <br>
+                    <div class="icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="./images/3.jpg" alt=""> <br> <br>
+                    <h2>John Deo</h2>
+                    <p class="doc">Expert Doctor in Palliative Care </p> <br>
+                    <div class="icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+
+
+            </div> <br>
+            <div class="second">
+                <div class="pic">
+                    <img src="./images/3.jpg" alt=""> <br> <br>
+                    <h2>John Deo</h2>
+                    <p class="doc">Expert Doctor in Palliative Care </p> <br>
+                    <div class="icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="./images/3.jpg" alt=""> <br> <br>
+                    <h2>John Deo</h2>
+                    <p class="doc">Expert Doctor in Palliative Care </p> <br>
+                    <div class="icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="./images/3.jpg" alt=""> <br> <br>
+                    <h2>John Deo</h2>
+                    <p class="doc">Expert Doctor in Palliative Care </p> <br>
+                    <div class="icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+            </div><br> <br> <br>
+        </div>
+    </div>
+    <!-- end of doctor page -->
+
+
+     <!--booking section-->
+     <section class="book" >
+        <div class="title">
+            <h2><span style="color: #29ab87;">book</span> now</h2>
+        </div>
+       
+        <div class="book-container">
+            <div class="box2">
+                <img src="../images/portrait_of_doctor_for_the_book_now-removebg-preview.png" alt="">
+            </div>
+                <form action="">
+                    <h1>BOOK APPOINTMENT</h1>
+                        <input type="text" name="name" placeholder="type your name"  class="box" required>
+                        <input type="number"  placeholder="type your number" class="box" required>                        
+                        <input type="email" name="email" placeholder="type your email" class="box" required>                          
+                        <input type="date"  name="date" placeholder="inquire the date" class="box" required>
+                        <input type="submit"  value="book now" class="btn2">
+                </form>
+        </div> <br> <br> <br>
+    </section>
+<!--end of booking section-->
+
+
+    <!-- start of testimonials -->
+
+    <div class="testimonials">
+        <div class="inner"> <br> <br> <br>
+            
+            <h1>Testimonials</h1>
+            
+            <div class="border"></div>
+    
+    
+            <div class="row">
+                <div class="col">
+                    <div class="testimonials">
+                        <img src="../about 2/ph 2.jpg" alt="">
+                        <div class="name">Abby</div>
+                        <p>This was the best decision ever, i got to receive quality
+                            care from the comfort of my home, The doctors and nurses were amazing,
+                            always available when i need them.
+                        </p>
+                    
+                    </div>
+                </div>
+    
+    
+                <div class="col">
+                    <div class="testimonials">
+                        <img src="../about 2/masai.jpg" alt="">
+                        <div class="name">Marsai</div>
+                        <p>This was the best decision ever, i got to receive quality
+                            care from the comfort of my home, The doctors and nurses were amazing,
+                            always available when i need them.
+                        </p>
+                    
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="testimonials">
+                        <img src="../about 2/queen 1.jpg" alt="">
+                        <div class="name">Lizzy</div>
+                        <p>This was the best decision ever, i got to receive quality
+                            care from the comfort of my home, The doctors and nurses were amazing,
+                            always available when i need them.
+                        </p>
+                    
+                    </div>
+                </div>
+            </div><br> <br> <br>
+    
+            
+        </div><br> <br> <br>
+    
+          
+    
+        
+            
+        </div>
+    </div>
+    
+        
+       </div> 
+ <!-- end of testimonials     -->
+
+
+    <!-- start of login form -->
+    <div class="banner" id="log">
+        <div class="content">
+            <div class="sign-page">
+                <div class="here">
+                    <h3>LOGIN HERE</h3>
+                </div>
+                <form style="display: flex; flex-direction: column; align-items: center;" action="">
+                    <label for="fname">User-Name</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Password</label>
+                    <input type="password" id="lname" name="lname">
+                </form>
+                <div class="forget">
+                    <input type="checkbox">
+                    <label for="checkbox">Remember me</label>
+                    <a id="tex" href="">Forgot Password?</a>
+                </div> <br>
+                <button id="tex" type="button">Login</button> <br> <br>
+                <p id="tex"> Don't have an account <a style="text-decoration: none;" href="" id="sig"> sign up here</a>
+                </p> <br>
+                <p id="tex">Log with</p> <br>
+                <div class="icons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-twitter"></a> <br> <br> <br>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end of login form -->
+
+
+
+
+    <!-- start of footer -->
+    <div class="cons">
+        <div class="cont">
+            <div>
+                <h1>Quick Links</h1>
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Login</li>
+                    <li>Book-Now</li>
+                    <li>Reviews</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Our Services</h1>
+                <ul>
+                    <li>General Consultation</li>
+                    <li>Diagnostic Testing</li>
+                    <li>Follow-Up Nursing Care</li>
+                    <li>Palliative & Elderly Home Care</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Contact Info</h1>
+                <ul>
+                    <li>+237671900165</li>
+                    <li>+237671900165</li>
+                    <li>+237671900165</li>
+                    <li>atudagum1@gmail.com</li>
+                    <li>atudagum1@gmail.com</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Follow Us</h1>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end of footer -->
+
+</body>
+
+</html>

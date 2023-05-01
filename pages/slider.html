@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./slider.css">
-    <link rel="stylesheet" href="./doctors.html">
-    <link rel="stylesheet" href="./book-now.html">
+    <link rel="stylesheet" href="../styles/slider.css">
+    <link rel="stylesheet" href="../pages/doctors.html">
+    <link rel="stylesheet" href="../pages/login.html">
+    <link rel="stylesheet" href="../pages/contact.html">
 </head>
 
 <body onload="slider()">
@@ -23,32 +24,35 @@
                     <img src="./images/AQJF5164.JPG" alt="">
                 </div>
                 <div class="menu-icon">
-                    <a href="./slider.html">Home</a>
+                    <a href="../pages/slider.html">Home</a>
                     <a href="">Services</a>
                     <a href="">About</a>
-                    <a href="./doctors.html">Doctors</a>
+                    <a href="../pages/doctors.html">Doctors</a>
                     <a href="./book-now.html">Book-Now</a>
                     <a href="">Review</a>
-                    <a href="./login.html">Login</a>
+                    <a href="../pages/login.html">Login</a>
                 </div>
             </div>
             <div class="content">
-           <h1 style="color: white;"> WELCOME TO  </h1> <h1 style="color: rgb(98, 171, 98);"> SACFU </h1>
-                <h3>Here we offer you with free consultation at the comfort of your home we provide you other home care services such as; <br> <br> <br>
-                <ul>
-                    <li>General Consultation</li>
-                    <li>Diagnostic Testing</li>
-                    <li>Follow-Up Nursing Care</li>
-                    <li>Palliative & Elderly Home Care</li>
-                </ul></h3> 
+                <h1 style="color: white;"> WELCOME TO </h1>
+                <h1 style="color: #29ab87;"> SACFU </h1>
+                <h3>Here we offer you with free consultation at the comfort of your home we provide you other home care
+                    services such as; <br> <br> <br>
+                    <ul>
+                        <li>General Consultation</li>
+                        <li>Diagnostic Testing</li>
+                        <li>Follow-Up Nursing Care</li>
+                        <li>Palliative & Elderly Home Care</li>
+                    </ul>
+                </h3>
                 <h2>STAY SAFE, STAY HEALTHY</h2><br> <br>
-                <button type="button">BOOK-NOW</button> 
-              
+                <button type="button">BOOK-NOW</button>
+
             </div>
         </div>
     </div>
     <script>
-        var slidimg =document.getElementById("slidimg");
+        var slidimg = document.getElementById("slidimg");
 
         var images = new Array(
             "images/group-black-doctors-nurses-isolated-white-30058871.jpg",
@@ -60,13 +64,13 @@
         var len = images.length;
         var i = 0;
 
-        function slider(){
-            if(i > len-1){
+        function slider() {
+            if (i > len - 1) {
                 i = 0;
             }
             slidimg.src = images[i];
             i++;
-            setTimeout('slider()',4000)
+            setTimeout('slider()', 4000)
         }
     </script>
 </body>
